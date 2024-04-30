@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>A2A electrical</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+    <script defer src="js/script.js"></script>
+  </head>
+  <body>
+    <div class="page-wrap">
+    <div class="hero-container">
+      <header class="head">
+        <div class="logo">
+          <p class="main-logo">A2A Electrical</p>
+          <p class="sub-logo">Services</p>
+        </div>
+        <nav class="navigation">
+          <a class="btn-nav" href="#services">Services</a>
+          <a class="btn-nav" href="#about">about </a>
+          <a class="btn-nav show-contact" href="#">contact us</a>
+        </nav>
+        <button class="btn-mobile-nav">
+          <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+          <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+        </button>
+      </header>
+
+      <section class="section-hero">
+        <div class="hero-div">
+          <h1 class="heading-main">No Job is too big or too small</h1>
+          <p class="heading-sub">Lets Connect !</p>
+          <a href="#quote" class="btn-quote">Get a quote</a>
+        </div>
+      </section>
+    </div>
+
+    <!-- modal window -->
+    <div class="modal hidden">
+      <button class="close-contact">&times;</button>
+      
+      <h1>Contact Information</h1>
+      <div class="modal-content">
+        <p>
+          <ion-icon class="elec-icon" name="call"></ion-icon>
+          <a href="tel:+64225311786" class="elec-num">0225311786</a>
+          <ion-icon class="elec-icon" name="mail"></ion-icon>
+          <a href="mailto:admin@celectrical.co.nz" class="elec-email">admin@celectrical.co.nz</a>
+        </p>
+      </div>
+    </div>
+    <div class="overlay hidden"></div>
+
+    <!-- Section services -->
+    <section class="section-services" id="services">
+      <div class="container">
+        <h2 class="sub-heading1 green-heading">Our Services</h2>
+        <div class="serv_list grid grid-2-cols">
+          <figure class="img-serv-box">
+            <img src="img/Home Installation.jpg" class="img-serv" />
+          </figure>
+
+          <div class="service-detail">
+            <p class="service-heading">
+              <span class="green-heading">Home</span> installations
+            </p>
+            <ul class="list">
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>Renovations</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>Mains Connections</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>Extractor Fans & Heating</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>Hot Water Cylinders</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>CCTV, Security Systems & Gates</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>Lighting Installation & Repairs</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>Audio Visual</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>Home Ventilation & Underfloor Heating</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>Smart Home</span>
+              </li>
+            </ul>
+          </div>
+          <div class="service-detail">
+            <p class="service-heading">
+              <span class="green-heading">Commercial</span> services
+            </p>
+            <ul class="list">
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span> Commercial & Retail Fit Outs</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>Ongoing Electrical Jobbing</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>24/7 Emergency Response</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>Lighting Systems</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>New Commercial & Apartment</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>Building Electrical</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>Data/Computer Cabling</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>Preventative Maintenance</span>
+              </li>
+            </ul>
+          </div>
+          <figure class="img-serv-box img2">
+            <img src="img/Commercial Installation.jpg" class="img-serv" />
+          </figure>
+          <figure class="img-serv-box img3">
+            <img
+              src="img/Industrial Installation.jpg"
+              class="img-serv"
+            />
+          </figure>
+          <div class="service-detail">
+            <p class="service-heading">
+              <span class="green-heading">Industrial</span> Services
+            </p>
+            <ul class="list">
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>Factory Relocations</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>Power Factor Corrections</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>PLC Devices & Systems</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>Variable Speed Drives</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>Electronic Repairs</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>Building Electrical</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>Machinery Servicing</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>Equipment Breakdown</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-about" id="about">
+      <div class="container">
+        <h2 class="sub-heading1 green-heading">About us</h2>
+        <div class="about-grid">
+          <p class="heading-about green-heading">What we do?</p>
+          <p class="about-detail">
+            A2A Electrical Services Limited is a reputable company providing
+            comprehensive electrical solutions for residential, commercial, and
+            industrial sectors. Our team consists of registered electricians and
+            registered electrical engineers who possess the expertise to handle
+            a wide range of electrical projects. From installation and
+            maintenance to troubleshooting and repair, our professionals are
+            dedicated to delivering top-notch services. Entrust your electrical
+            work to us and experience the assurance of professional expertise.(
+            Test and Tag).
+          </p>
+          <p class="heading-about green-heading">Our Electrician</p>
+          <div class="electrician">
+            <div class="electrician-details">
+              <div class="name">
+                <p>Manpreet Singh</p>
+              </div>
+              <div class="credentials">
+                <ion-icon class="elec-icon" name="book"></ion-icon>
+                <p>Registered Electrician</p>
+                <p>Registered Electrical Engineer</p>
+                <p>CPEng</p>
+                <p>Official member of Engineering NZ</p>
+              </div>
+              <div class="contact" id="contact">
+                <div class="icon">
+                  <ion-icon class="elec-icon" name="call"></ion-icon>
+                  <ion-icon class="elec-icon" name="mail"></ion-icon>
+                </div>
+                <a href="tel:+64225311786" class="elec-num">0225311786</a>
+                <a href="mailto:admin@celectrical.co.nz" class="elec-email">admin@celectrical.co.nz</a>
+              </div>
+            </div>
+            <img src="img/manpreet-pic2.jpg" class="img-electrician" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- cta section -->
+    <section class="scection-cta">
+      <div class="cta-container">
+        <div class="form">
+          <form
+            class="cta-form"
+            method="post"
+            action="https://formsubmit.co/aeles786@gmail.com"
+            name="cta-form"
+          >
+            <h2 class="sub-heading1 green-heading" id="quote">Get a quote</h2>
+            <div class="cta-subsection">
+              <label for="full-name">Full Name</label>
+              <input
+                type="text"
+                id="full-name"
+                name="name"
+                placeholder="Full Name"
+                required
+              />
+            </div>
+            <div class="cta-subsection">
+              <label for="phn-num">Phone Number</label>
+              <input type="number" id="phn-num" name="phone" />
+            </div>
+            <div class="cta-subsection">
+              <label for="email">Email address</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="me@example.com"
+                
+              />
+            </div>
+            <div class="cta-subsection">
+              <label for="description">Enter job details</label>
+              <textarea
+                name="message"
+                id="description"
+                rows="5"
+                columns="40"
+                required
+              ></textarea>
+            </div>
+            <input type="hidden" name="_next" value="https://a2aelectrical.co.nz/thankyou.html">
+            <input type="hidden" name="_captcha" value="false"></input>
+            <button class="btn-submit" type="submit">Submit</button>
+          </form>
+          <div class="img-box"></div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <section class="footer-grid">
+        <div class="box1">
+          <p>A2A Electrical</p>
+          <p>Services</p>
+        </div>
+        <div class="box2">
+          <ul class="box-list">
+            <li><a href="#services" class="box-heading">Our Services</a></li>
+            <li><a href="#services">Home Installation</a></li>
+            <li><a href="#services">Commercial Services</a></li>
+            <li><a href="#services">Industrial Services</a></li>
+            <li><a href="#services">Solar Panels</a></li>
+            <li><a href="#services">Hot water cylinders</a></li>
+            <li><a href="#services">CCTV cameras</a></li>
+          </ul>
+        </div>
+        <div class="box3">
+          <ul class="box-list">
+            <li><a href="#" class="box-heading">Contact us</a></li>
+            <li><a href="#" class="box-subheading">Phone</a></li>
+            <li>
+              <a href="tel:+64225311786" class="box3-number">0225311786</a>
+            </li>
+            <li><a href="#" class="box-subheading">E-mail</a></li>
+            <li>
+              <a href="mailto:admin@celectrical.co.nz" class="box3-number"
+                >admin@celectrical.co.nz</a
+              >
+            </li>
+            <li><a href="#" class="box-subheading">Auckland based</a></li>
+          </ul>
+        </div>
+        <div class="box4">
+          <p class="copyright">
+            Copyright &copy;<span class="year">2023</span> by A2A Electrical,
+            Inc. Allrights reserved
+          </p>
+        </div>
+        <div class="box5">
+          <a class="footer-socialLink" href="#"
+            ><ion-icon class="social-icon" name="logo-instagram"></ion-icon
+          ></a>
+          <a class="footer-link" href="#"
+            ><ion-icon class="social-icon" name="logo-facebook"></ion-icon
+          ></a>
+        </div>
+        <div class="box6">
+          <p>Designed by</p>
+          <p>New-Era Creations</p>
+        </div>
+      </section>
+    </footer>
+
+    <!-- form validator script -->
+    <!-- <script>
+      var frmvalidator = new Validator("contactform");
+      frmvalidator.addValidation("name", "req", "please provide your name");
+      frmvalidator.addValidation("email", "req", "please provide your email");
+      frmvalidator.addValidation("email", "email", "please enter valid email");
+    </script> -->
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    </div>
+  </body>
+</html>
